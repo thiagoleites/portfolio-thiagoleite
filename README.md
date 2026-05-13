@@ -1,20 +1,57 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Thiago Leite — Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to my personal portfolio repository.
+This project was created to showcase my work, skills, experience, and the technologies I use to build modern digital solutions.
 
-This contains everything you need to run your app locally.
+About
 
-View your app in AI Studio: https://ai.studio/apps/27404ab9-3ae5-474d-967f-59049d97d4af
+This portfolio represents my professional journey as a full-stack developer focused on creating scalable, modern, and high-performance applications.
 
-## Run Locally
+The project highlights:
 
-**Prerequisites:**  Node.js
+Featured projects
+Technical skills
+Professional experience
+UI/UX concepts
+Backend architecture
+Infrastructure and DevOps knowledge
+Interactive and modern frontend experiences
+Technologies
 
+This portfolio may include technologies such as:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+React
+Next.js
+TypeScript
+Tailwind CSS
+Node.js
+PHP / Laravel
+WebSockets
+REST APIs
+Docker
+Linux / VPS Infrastructure
+Features
+Modern and responsive UI
+Smooth animations and transitions
+Project showcase with detailed modals
+Categorized portfolio sections
+Performance-focused structure
+Mobile-friendly design
+Dynamic and interactive components
+Goals
+
+The main objective of this portfolio is to:
+
+Present my professional work
+Demonstrate technical skills
+Showcase frontend and backend capabilities
+Create a modern digital identity
+Centralize projects and experiences in a single platform
+Author
+
+Thiago Leite
+Full-Stack Developer
+
+Contact
+
+Built with passion for technology, design, and scalable software development.
