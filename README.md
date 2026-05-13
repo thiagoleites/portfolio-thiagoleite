@@ -1,57 +1,231 @@
-Thiago Leite — Portfolio
+# 🚀 Thiago Leite — Modern Developer Portfolio
 
-Welcome to my personal portfolio repository.
-This project was created to showcase my work, skills, experience, and the technologies I use to build modern digital solutions.
+<div align="center">
 
-About
+# 👨‍💻 Thiago Leite
 
-This portfolio represents my professional journey as a full-stack developer focused on creating scalable, modern, and high-performance applications.
+### Full-Stack Developer • UI/UX Enthusiast • Infrastructure & Automation
 
-The project highlights:
+Modern portfolio built with performance, scalability, animations, and clean UI in mind.
 
-Featured projects
-Technical skills
-Professional experience
-UI/UX concepts
-Backend architecture
-Infrastructure and DevOps knowledge
-Interactive and modern frontend experiences
-Technologies
+---
 
-This portfolio may include technologies such as:
+<img src="https://skillicons.dev/icons?i=react,vite,ts,tailwind,nodejs,php,laravel,nextjs,go,docker,postgres,mongodb,linux,nginx,git" />
 
-React
-Next.js
-TypeScript
-Tailwind CSS
-Node.js
-PHP / Laravel
-WebSockets
-REST APIs
-Docker
-Linux / VPS Infrastructure
-Features
-Modern and responsive UI
-Smooth animations and transitions
-Project showcase with detailed modals
-Categorized portfolio sections
-Performance-focused structure
-Mobile-friendly design
-Dynamic and interactive components
-Goals
+---
 
-The main objective of this portfolio is to:
+[![Portfolio Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)]()
+[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)]()
+[![Made With](https://img.shields.io/badge/made%20with-love-red?style=for-the-badge)]()
 
-Present my professional work
-Demonstrate technical skills
-Showcase frontend and backend capabilities
-Create a modern digital identity
-Centralize projects and experiences in a single platform
-Author
+</div>
 
+---
+
+# ✨ About The Project
+
+This repository contains my personal developer portfolio, designed to showcase my projects, skills, technologies, and professional experience through a modern and immersive interface.
+
+The portfolio focuses on:
+- ⚡ Performance
+- 🎨 Modern UI/UX
+- 📱 Responsive Design
+- 🚀 Smooth Animations
+- 🧠 Interactive Experience
+- 🛠 Scalable Architecture
+
+The objective is to create a visually engaging and professional platform that represents my work as a developer while demonstrating frontend, backend, and infrastructure expertise.
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+<div align="left">
+
+<img src="https://skillicons.dev/icons?i=react,vite,ts,tailwind,nextjs" />
+
+</div>
+
+- React
+- Vite
+- TypeScript
+- TailwindCSS
+- Framer Motion
+- Responsive Design
+- Modern Component Architecture
+
+---
+
+## Backend & APIs
+
+<div align="left">
+
+<img src="https://skillicons.dev/icons?i=nodejs,php,laravel,go" />
+
+</div>
+
+- Node.js
+- NestJS
+- PHP
+- Laravel
+- Go
+- REST APIs
+- WebSocket Communication
+- Authentication Systems
+
+---
+
+## Database
+
+<div align="left">
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb" />
+
+</div>
+
+- PostgreSQL
+- MariaDB / MySQL
+- MongoDB
+- Database Modeling
+- Query Optimization
+
+---
+
+## Infrastructure & DevOps
+
+<div align="left">
+
+<img src="https://skillicons.dev/icons?i=docker,linux,nginx,apache,git,github" />
+
+</div>
+
+- Docker
+- Linux Servers
+- VPS Management
+- Nginx
+- Apache
+- Git & GitHub
+- CI/CD Concepts
+- Homelab Infrastructure
+- Cloudflare Tunnel
+
+---
+
+# 🎯 Features
+
+✅ Fully Responsive Layout  
+✅ Interactive Project Showcase  
+✅ Animated UI Components  
+✅ Modern Timeline Sections  
+✅ Dynamic Modal System  
+✅ Smooth Navigation  
+✅ Optimized Performance  
+✅ Clean and Minimalist Design  
+✅ Dark Modern Interface  
+✅ Category-Based Projects  
+✅ Scalable Component Structure  
+
+---
+
+# 📂 Project Structure
+
+```bash
+src/
+├── assets/
+├── components/
+├── pages/
+├── layouts/
+├── hooks/
+├── services/
+├── styles/
+├── data/
+├── animations/
+└── utils/
+
+```
+
+🚀 Getting Started
+Clone the repository
+```bash
+git clone https://github.com/yourusername/portfolio.git
+````
+
+Enter the project folder
+```bash
+cd portfolio
+```
+
+Install dependencies
+```bash
+npm install
+```
+
+Run the development server
+```bash
+npm run dev
+```
+🌎 Deployment
+
+This project can be deployed using:
+
+Vercel
+Netlify
+VPS Hosting
+Docker Containers
+Nginx Reverse Proxy
+📸 Portfolio Sections
+🏠 Home
+👨‍💻 About Me
+🧠 Skills
+🚀 Projects
+📚 Experience
+🛠 Technologies
+📞 Contact
+🌙 Interactive UI Elements
+🎨 Design Philosophy
+
+The portfolio follows a modern and immersive design language focused on:
+
+Minimalism
+Motion Design
+Readability
+Performance
+Accessibility
+Smooth User Experience
+
+Animations and transitions are designed to create an engaging experience without sacrificing performance.
+
+📈 Goals
+
+This portfolio aims to:
+
+Showcase professional projects
+Present technical skills clearly
+Demonstrate frontend and backend expertise
+Create a strong digital presence
+Centralize projects and experiences
+Reflect creativity and technical quality
+👨‍💻 Author
 Thiago Leite
-Full-Stack Developer
 
-Contact
+Full-Stack Developer passionate about:
 
-Built with passion for technology, design, and scalable software development.
+Web Development
+System Architecture
+Automation
+Infrastructure
+UI/UX
+Modern Technologies
+📬 Contact
+
+📧 Email: thiagoleites@gmail.com
+
+🐙 GitHub: @thiagoleites
+
+⭐ Final Notes
+
+This portfolio is continuously evolving with new projects, technologies, and ideas.
+
+Built with passion for technology, performance, and modern user experiences. 🚀
