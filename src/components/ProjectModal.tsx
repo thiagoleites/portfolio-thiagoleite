@@ -17,7 +17,7 @@ export const ProjectModal = ({ project, onClose }: ProjectModalProps) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="fixed inset-0 z-[60] flex items-center justify-center p-4 md:p-10"
+        className="fixed inset-0 z-60 flex items-center justify-center p-4 md:p-10"
       >
         <div className="absolute inset-0 bg-deep-black/90 backdrop-blur-3xl" onClick={onClose} />
         

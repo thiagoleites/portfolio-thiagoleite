@@ -34,16 +34,16 @@ const LoadingScreen = ({ onComplete }: { onComplete: () => void }) => {
     <motion.div
       exit={{ y: '-100%' }}
       transition={{ duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
-      className="fixed inset-0 z-[100] bg-deep-black flex flex-col items-center justify-center"
+      className="fixed inset-0 z-100 bg-deep-black flex flex-col items-center justify-center"
     >
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         className="text-white font-display text-4xl font-bold tracking-tighter mb-8"
       >
-        CHRONOS<span className="text-neon-blue">.</span>
+        THIAGO LEITE<span className="text-neon-blue">.</span>
       </motion.div>
-      <div className="w-64 h-[2px] bg-white/10 relative overflow-hidden">
+      <div className="w-64 h-0.5 bg-white/10 relative overflow-hidden">
         <motion.div 
           className="absolute inset-0 bg-neon-blue origin-left"
           style={{ scaleX: percent / 100 }}
