@@ -28,7 +28,7 @@ export const Contact = () => {
   return (
     <section id="contact" className="py-32 relative bg-deep-black">
       {/* Background Decor */}
-      <div className="absolute bottom-0 left-0 w-full h-[500px] bg-gradient-to-t from-tech-purple/5 to-transparent pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-full h-125 bg-linear-to-t from-tech-purple/5 to-transparent pointer-events-none" />
       
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-20">
