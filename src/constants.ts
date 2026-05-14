@@ -3,13 +3,13 @@ import { Project, Experience } from './types';
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'Quantum Dashboard',
-    category: 'Fintech / Web App',
-    date: '2024 - Present',
-    description: 'A futuristic analytics dashboard for real-time crypto asset management.',
-    fullDescription: 'Quantum Dashboard is a high-performance interface designed for institutional investors. It leverages Web3 technologies to provide instant insights into market volatility and portfolio health.',
+    title: 'Toda Diva Store',
+    category: 'E-commerce / Fashion Store',
+    date: '2025 - Present',
+    description: 'A modern and elegant online storefront for showcasing women’s fashion products with a direct WhatsApp sales flow.',
+    fullDescription: 'Toda Diva Store is a stylish and lightweight fashion e-commerce interface designed to present clothing collections, categories, featured products, and promotional highlights. The project focuses on a smooth shopping experience, allowing customers to browse products and quickly contact the seller through WhatsApp to complete their purchase.',
     image: 'https://images.unsplash.com/photo-1551288049-bbda38a5f452?auto=format&fit=crop&q=80&w=1200',
-    stack: ['React', 'TypeScript', 'D3.js', 'Tailwind'],
+    stack: ['React', 'TypeScript', 'Tailwind CSS', 'Instagram Integration'],
     links: {
       github: '#',
       demo: '#'

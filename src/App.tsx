@@ -127,8 +127,8 @@ export default function App() {
               </div>
               <div className="flex gap-4 md:gap-8 text-[10px] uppercase tracking-widest font-medium text-neutral-400">
                 <a href="#" className="hover:text-white transition-colors">Twitter</a>
-                <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
-                <a href="#" className="hover:text-white transition-colors">GitHub</a>
+                <a href="https://www.linkedin.com/in/thiagoleites" className="hover:text-white transition-colors">LinkedIn</a>
+                <a href="https://github.com/thiagoleites" className="hover:text-white transition-colors">GitHub</a>
               </div>
             </footer>
           </div>
