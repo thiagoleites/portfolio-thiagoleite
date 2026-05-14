@@ -104,7 +104,7 @@ export const Contact = () => {
                   required
                   value={formState.name}
                   onChange={e => setFormState({...formState, name: e.target.value})}
-                  className="w-full bg-white/[0.02] border border-white/10 px-6 py-4 outline-none focus:border-accent-cyan transition-all text-white font-mono text-sm"
+                  className="w-full bg-white/2 border border-white/10 px-6 py-4 outline-none focus:border-accent-cyan transition-all text-white font-mono text-sm"
                 />
               </div>
               <div className="space-y-2">
@@ -114,7 +114,7 @@ export const Contact = () => {
                   required
                   value={formState.email}
                   onChange={e => setFormState({...formState, email: e.target.value})}
-                  className="w-full bg-white/[0.02] border border-white/10 px-6 py-4 outline-none focus:border-accent-cyan transition-all text-white font-mono text-sm"
+                  className="w-full bg-white/2 border border-white/10 px-6 py-4 outline-none focus:border-accent-cyan transition-all text-white font-mono text-sm"
                 />
               </div>
               <div className="space-y-2">
@@ -124,7 +124,7 @@ export const Contact = () => {
                   rows={4}
                   value={formState.message}
                   onChange={e => setFormState({...formState, message: e.target.value})}
-                  className="w-full bg-white/[0.02] border border-white/10 px-6 py-4 outline-none focus:border-accent-cyan transition-all text-white font-mono text-sm resize-none"
+                  className="w-full bg-white/2 border border-white/10 px-6 py-4 outline-none focus:border-accent-cyan transition-all text-white font-mono text-sm resize-none"
                 />
               </div>
 
