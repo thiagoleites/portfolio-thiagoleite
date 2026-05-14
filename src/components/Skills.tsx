@@ -21,7 +21,7 @@ const SkillCategory = ({ title, icon: Icon, skills, delay = 0 }: any) => (
             <span className="text-white/40 uppercase tracking-widest">{skill.name}</span>
             <span className="text-accent-cyan">{skill.level}%</span>
           </div>
-          <div className="h-[1px] bg-white/10 rounded-full overflow-hidden">
+          <div className="h-px bg-white/10 rounded-full overflow-hidden">
             <motion.div
               initial={{ width: 0 }}
               whileInView={{ width: `${skill.level}%` }}
@@ -69,7 +69,7 @@ export const Skills = () => {
 
   return (
     <section id="skills" className="py-32 bg-tech-gray/50 relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-tech-purple/5 rounded-full blur-[120px]" />
+      <div className="absolute top-0 right-0 w-125 h-125 bg-tech-purple/5 rounded-full blur-[120px]" />
       
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
