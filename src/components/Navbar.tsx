@@ -37,10 +37,10 @@ export const Navbar = () => {
           className="flex items-center gap-3"
         >
           <div className="w-8 h-8 bg-white flex items-center justify-center rounded-sm">
-            <span className="text-black font-black text-xl">C</span>
+            <span className="text-black font-black text-xl">TL</span>
           </div>
           <span className="text-[11px] uppercase tracking-[0.3em] font-medium hidden sm:block">
-            LEO CHRONOS <span className="opacity-30">/ 2026</span>
+            THIAGO LEITE<span className="opacity-30">/ 2026</span>
           </span>
         </motion.div>
 
