@@ -52,18 +52,34 @@ export const PROJECTS: Project[] = [
 export const EXPERIENCES: Experience[] = [
   {
     id: 'e1',
-    company: 'Vercel',
-    role: 'Senior Frontend Engineer',
-    period: '2023 - Present',
+    company: 'Timmy - id5',
+    role: 'Frontend Developer',
+    period: '2024 - Present',
     description: 'Leading the development of modern web frameworks and developer interfaces.',
-    tech: ['React', 'Next.js', 'Rust']
+    tech: ['React', 'Next.js', 'Rust', 'Wordpress']
   },
   {
     id: 'e2',
-    company: 'Stripe',
-    role: 'Product Designer / Developer',
-    period: '2021 - 2023',
+    company: 'FullService',
+    role: 'Full Stack Developer',
+    period: '2024 - 2025',
     description: 'Crafting premium payment experiences and interactive dashboards.',
-    tech: ['Figma', 'React', 'Motion']
+    tech: ['Figma', 'React', 'Motion', 'PHP', 'Laravel']
+  },
+  {
+    id: 'e3',
+    company: 'Lets Evolve',
+    role: 'Full Stack Developer',
+    period: '2022 - 2023',
+    description: 'Designing and building custom web solutions for clients across various industries.',
+    tech: ['PHP', 'Bootstrap', 'Laravel', 'jQuery']
+  },
+  {
+    id: 'e4',
+    company: 'Devt',
+    role: 'Full Stack Developer',
+    period: '2022 - Present',
+    description: 'Designing and building custom web solutions for clients across various industries.',
+    tech: ['Figma', 'React', 'Tailwind CSS', 'Node.js', 'Laravel', 'Filament', 'Vue.js', 'Inertia.js', 'PHP', 'Wordpress', 'Elementor']
   }
 ];

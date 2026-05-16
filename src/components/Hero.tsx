@@ -28,7 +28,7 @@ export const Hero = () => {
             transition={{ delay: 0.2 }}
             className="text-sm md:text-base text-neutral-400 leading-relaxed max-w-[320px]"
           >
-            Senior Frontend Engineer merged with high-end aesthetic precision. Specialized in immersive web experiences for global brands.
+            Full Stack Developer and SaaS Builder creating scalable products with high-end aesthetic precision. Specialized in immersive web experiences, modern architectures, and end-to-end solutions — combining robust backend systems with refined interfaces to deliver impactful digital products and experiences.
           </motion.p>
           
           <motion.div 
@@ -47,19 +47,20 @@ export const Hero = () => {
         </div>
 
         {/* Stats Panel */}
-        <div className="space-y-8 pt-12 border-t border-white/5 mt-12 md:mt-0">
+        <div className="space-y-4 pt-12 border-t border-white/5 mt-12 md:mt-0">
           <div className="grid grid-cols-2 gap-8">
             <div>
               <div className="text-[10px] text-neutral-500 uppercase tracking-widest mb-1">Expertise</div>
-              <div className="text-2xl font-medium">8+ Years</div>
+              <div className="text-2xl font-medium">4+ Years</div>
             </div>
             <div>
               <div className="text-[10px] text-neutral-500 uppercase tracking-widest mb-1">Focus</div>
-              <div className="text-2xl font-medium">Visual UI</div>
+              <div className="text-2xl font-medium">Full Stack Systems</div>
             </div>
           </div>
           <div className="text-[9px] font-mono text-neutral-600 uppercase tracking-[0.2em]">
-            // LOC: 52.5200° N, 13.4050° E
+            // Maceio, Brazil <br/>
+            // LOC: 9.6498° S, 35.7089° W
           </div>
         </div>
       </div>
