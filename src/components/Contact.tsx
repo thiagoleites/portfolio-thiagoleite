@@ -71,7 +71,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <span className="block text-xs font-mono text-white/30 uppercase">Location</span>
-                  <span className="font-medium">Maceío, Alagoas / Remote</span>
+                  <span className="font-medium">Maceió, Alagoas / Remote</span>
                 </div>
               </div>
             </div>
