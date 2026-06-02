@@ -62,7 +62,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <span className="block text-xs font-mono text-white/30 uppercase">Email</span>
-                  <span className="font-medium">hello@chronos.design</span>
+                  <span className="font-medium">oi@thiagoleite.eu</span>
                 </div>
               </div>
               <div className="flex items-center gap-4 text-white/70 group">
@@ -71,7 +71,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <span className="block text-xs font-mono text-white/30 uppercase">Location</span>
-                  <span className="font-medium">Berlin, Germany / Remote</span>
+                  <span className="font-medium">Maceío, Alagoas / Remote</span>
                 </div>
               </div>
             </div>
