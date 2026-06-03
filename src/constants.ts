@@ -62,7 +62,7 @@ export const EXPERIENCES: Experience[] = [
     id: 'e2',
     company: 'FullService',
     role: 'Full Stack Developer',
-    period: '2024 - 2025',
+    period: '2024 - Present',
     description: 'Crafting premium payment experiences and interactive dashboards.',
     tech: ['Figma', 'React', 'Motion', 'PHP', 'Laravel']
   },

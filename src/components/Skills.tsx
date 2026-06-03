@@ -51,7 +51,7 @@ export const Skills = () => {
       title: 'Backend Systems',
       icon: Terminal,
       skills: [
-        { name: 'Node.js / Go', level: 80 },
+        { name: 'Node.js / PHP', level: 90 },
         { name: 'PostgreSQL / NoSQL', level: 85 },
         { name: 'GraphQL / gRPC', level: 75 }
       ]
