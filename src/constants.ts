@@ -55,7 +55,7 @@ export const EXPERIENCES: Experience[] = [
     company: 'Timmy - id5',
     role: 'Frontend Developer',
     period: '2024 - Present',
-    description: 'Leading the development of modern web frameworks and developer interfaces.',
+    description: 'Specialized in crafting modern and responsive landing pages, converting Figma and Photoshop designs into fully functional WordPress websites. Developing custom themes from scratch, extending Elementor functionality, and delivering optimized user experiences focused on performance and conversion.',
     tech: ['Wordpress', 'Elementor', 'PHP', 'JavaScript', 'jQuery', 'HTML5', 'CSS3', 'Bootstrap', 'Figma', 'Photoshop']
   },
   {
@@ -63,7 +63,7 @@ export const EXPERIENCES: Experience[] = [
     company: 'FullService',
     role: 'Full Stack Developer',
     period: '2024 - Present',
-    description: 'Crafting premium payment experiences and interactive dashboards.',
+    description: 'Responsible for the development, maintenance, and enhancement of enterprise applications for the energy sector. Managing and optimizing SQL Server and MariaDB databases, administering GLPI environments, extracting and analyzing operational data, implementing new features, fixing issues, and supporting IT infrastructure and business processes.',
     tech: ['PHP', 'Laravel','Python', 'Bootstrap', 'SQL Server', 'MariaDB', 'GLPI', 'JavaScript', 'jQuery', 'REST APIs', 'Git']
   },
   {
