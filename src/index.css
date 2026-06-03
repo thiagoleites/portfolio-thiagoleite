@@ -17,6 +17,10 @@
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-deep-black text-tech-neutral antialiased selection:bg-accent-cyan selection:text-deep-black;
     font-feature-settings: "cv02", "cv03", "cv04", "ss01";

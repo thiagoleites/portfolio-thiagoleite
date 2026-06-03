@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState, useCallback } from 'react';
 import Lenis from '@studio-freight/lenis';
 import { motion, AnimatePresence } from 'motion/react';
 import { Navbar } from './components/Navbar';
@@ -58,6 +58,22 @@ const LoadingScreen = ({ onComplete }: { onComplete: () => void }) => {
 
 export default function App() {
   const [loading, setLoading] = useState(true);
+  const lenisRef = useRef<Lenis | null>(null);
+
+  const handleNavScroll = useCallback((href: string) => {
+    const lenis = lenisRef.current;
+    if (!lenis) return;
+
+    if (href === '#' || href === '') {
+      lenis.scrollTo(0);
+      return;
+    }
+
+    const target = document.querySelector<HTMLElement>(href);
+    if (target) {
+      lenis.scrollTo(target, { offset: -88 });
+    }
+  }, []);
 
   useEffect(() => {
     const lenis = new Lenis({
@@ -70,6 +86,8 @@ export default function App() {
       infinite: false,
     });
 
+    lenisRef.current = lenis;
+
     function raf(time: number) {
       lenis.raf(time);
       requestAnimationFrame(raf);
@@ -79,6 +97,7 @@ export default function App() {
 
     return () => {
       lenis.destroy();
+      lenisRef.current = null;
     };
   }, []);
 
@@ -102,7 +121,7 @@ export default function App() {
           </div>
 
           <div className="relative z-10">
-            <Navbar />
+            <Navbar onNavigate={handleNavScroll} />
             <Hero />
             
             <div id="projects">

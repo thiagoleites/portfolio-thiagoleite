@@ -3,7 +3,11 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Github, Linkedin, Twitter, Menu, X } from 'lucide-react';
 import { cn } from '../lib/utils';
 
-export const Navbar = () => {
+type NavbarProps = {
+  onNavigate?: (href: string) => void;
+};
+
+export const Navbar = ({ onNavigate }: NavbarProps) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -50,6 +54,12 @@ export const Navbar = () => {
             <motion.a
               key={link.name}
               href={link.href}
+              onClick={(event) => {
+                if (onNavigate) {
+                  event.preventDefault();
+                  onNavigate(link.href);
+                }
+              }}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: i * 0.1 }}
@@ -64,6 +74,12 @@ export const Navbar = () => {
         <div className="hidden md:flex">
           <motion.a
             href="#contact"
+            onClick={(event) => {
+              if (onNavigate) {
+                event.preventDefault();
+                onNavigate('#contact');
+              }
+            }}
             whileHover={{ letterSpacing: '0.4em' }}
             className="text-[10px] uppercase tracking-[0.3em] font-bold text-accent-cyan border border-accent-cyan/20 px-6 py-2 transition-all hover:bg-accent-cyan/10"
           >
@@ -94,7 +110,13 @@ export const Navbar = () => {
                 <a
                   key={link.name}
                   href={link.href}
-                  onClick={() => setIsMenuOpen(false)}
+                  onClick={(event) => {
+                    if (onNavigate) {
+                      event.preventDefault();
+                      onNavigate(link.href);
+                    }
+                    setIsMenuOpen(false);
+                  }}
                   className="text-xl font-display font-medium text-white/70 hover:text-neon-blue"
                 >
                   {link.name}
