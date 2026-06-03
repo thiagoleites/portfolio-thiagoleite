@@ -56,7 +56,7 @@ export const EXPERIENCES: Experience[] = [
     role: 'Frontend Developer',
     period: '2024 - Present',
     description: 'Leading the development of modern web frameworks and developer interfaces.',
-    tech: ['React', 'Next.js', 'Rust', 'Wordpress']
+    tech: ['Wordpress', 'Elementor', 'PHP', 'JavaScript', 'jQuery', 'HTML5', 'CSS3', 'Bootstrap', 'Figma', 'Photoshop']
   },
   {
     id: 'e2',
@@ -64,7 +64,7 @@ export const EXPERIENCES: Experience[] = [
     role: 'Full Stack Developer',
     period: '2024 - Present',
     description: 'Crafting premium payment experiences and interactive dashboards.',
-    tech: ['Figma', 'React', 'Motion', 'PHP', 'Laravel']
+    tech: ['PHP', 'Laravel','Python', 'Bootstrap', 'SQL Server', 'MariaDB', 'GLPI', 'JavaScript', 'jQuery', 'REST APIs', 'Git']
   },
   {
     id: 'e3',
@@ -80,6 +80,32 @@ export const EXPERIENCES: Experience[] = [
     role: 'Full Stack Developer',
     period: '2022 - Present',
     description: 'Designing and building custom web solutions for clients across various industries.',
-    tech: ['Figma', 'React', 'Tailwind CSS', 'Node.js', 'Laravel', 'Filament', 'Vue.js', 'Inertia.js', 'PHP', 'Wordpress', 'Elementor']
+      tech: [
+        'PHP',
+        'Laravel',
+        'Filament',
+        'JavaScript',
+        'TypeScript',
+        'Node.js',
+        'Next.js',
+        'NestJS',
+        'Vue.js',
+        'Inertia.js',
+        'React',
+        'WordPress',
+        'Elementor',
+        'MySQL',
+        'MariaDB',
+        'PostgreSQL',
+        'SQL Server',
+        'Python',
+        'Tailwind CSS',
+        'Bootstrap',
+        'Docker',
+        'Linux',
+        'Nginx',
+        'Apache',
+        'Git'
+      ]
   }
 ];
