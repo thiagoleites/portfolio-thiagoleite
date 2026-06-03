@@ -77,9 +77,9 @@ export const EXPERIENCES: Experience[] = [
   {
     id: 'e4',
     company: 'Devt',
-    role: 'Full Stack Developer',
+    role: 'Founder & Software Engineer',
     period: '2022 - Present',
-    description: 'Designing and building custom web solutions for clients across various industries.',
+    description: 'Leading the development of custom software solutions, SaaS platforms, enterprise systems, e-commerce applications, and digital transformation projects. Delivering end-to-end solutions involving frontend and backend development, database engineering, cloud infrastructure, API integrations, process automation, business intelligence, and data extraction. Supporting clients throughout the entire software lifecycle, from architecture and implementation to deployment and maintenance.',
       tech: [
         'PHP',
         'Laravel',
