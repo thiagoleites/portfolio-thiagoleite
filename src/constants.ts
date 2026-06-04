@@ -27,24 +27,33 @@ export const PROJECTS: Project[] = [
     date: '2026',
     description: 'A comprehensive ERP system tailored for motorcycle dealerships, integrating inventory management, sales tracking, customer relationship management, and financial reporting.',
     fullDescription: 'Moto ERP is a robust enterprise resource planning solution designed to streamline operations for motorcycle dealerships. It features modules for inventory management, sales tracking, customer relationship management (CRM), and financial reporting. The system provides real-time insights into dealership performance, helping managers make informed decisions and optimize business processes.',
-    image: 'https://motoerp.com.br',
+    image: 'https://motoerp.com.br/assets/logo-v3.png',
     stack: ['Next.js', 'Nestjs', 'Postgres', 'TypeScript', 'Tailwind CSS'],
     links: {
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/thiagoleites/motoerp.git',
+      demo: 'https://motoerp.com.br'
     }
   },
   {
     id: '3',
     title: 'Free Pay',
-    category: 'SaaS / Fintech',
+    category: 'SaaS / Business Management',
     date: '2025',
-    description: 'A user-friendly payment processing platform that enables businesses to accept online payments securely and efficiently.',
-    fullDescription: 'Free Pay is a cutting-edge payment processing platform designed to provide businesses with a seamless and secure way to accept online payments. The platform offers a user-friendly interface, robust security features, and support for multiple payment methods, including credit cards, digital wallets, and bank transfers. Free Pay aims to simplify the payment experience for both merchants and customers while ensuring fast transaction processing and reliable performance.',
+    description: 'A business management platform designed for freelancers and MEIs, helping professionals organize projects, track finances, and generate business reports.',
+    fullDescription: 'Free Pay is a SaaS platform created to simplify business management for freelancers and small entrepreneurs (MEIs). The system provides tools for project management, client tracking, financial control, service monitoring, and detailed business reporting. Users can manage their workflow, monitor revenue and expenses, organize contracts and deliveries, and generate reports to support financial planning and business growth. The platform focuses on productivity, organization, and providing clear insights into business performance through an intuitive and modern interface.',
     image: 'https://freepay.testeprovisorio.com.br',
-    stack: ['WebGPU', 'Rust', 'WASM', 'WGSL'],
+    stack: [
+      'Laravel',
+      'PHP',
+      'Filament',
+      'MySQL',
+      'JavaScript',
+      'jQuery',
+      'Bootstrap'
+    ],
     links: {
-      github: '#'
+      github: '#',
+      demo: 'https://freepay.testeprovisorio.com.br'
     }
   }
 ];
