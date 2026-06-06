@@ -12,7 +12,7 @@ export const PROJECTS: Project[] = [
     stack: ['React', 'TypeScript', 'Tailwind CSS', 'Instagram Integration'],
     links: {
       github: '#',
-      demo: '#'
+      demo: 'https://todadiva.store'
     },
     metrics: [
       { label: 'Latency', value: '< 50ms' },
