@@ -9,7 +9,7 @@ export const PROJECTS: Project[] = [
     description: 'A modern and elegant online storefront for showcasing women’s fashion products with a direct WhatsApp sales flow.',
     fullDescription: 'Toda Diva Store is a stylish and lightweight fashion e-commerce interface designed to present clothing collections, categories, featured products, and promotional highlights. The project focuses on a smooth shopping experience, allowing customers to browse products and quickly contact the seller through WhatsApp to complete their purchase.',
     image: 'https://images.unsplash.com/photo-1551288049-bbda38a5f452?auto=format&fit=crop&q=80&w=1200',
-    stack: ['React', 'TypeScript', 'Tailwind CSS', 'Instagram Integration'],
+    stack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Instagram Integration'],
     links: {
       github: '#',
       demo: 'https://todadiva.store'
@@ -55,6 +55,58 @@ export const PROJECTS: Project[] = [
       github: '#',
       demo: 'https://freepay.testeprovisorio.com.br'
     }
+  },
+  {
+    id: '4',
+    title: 'Devt Portfolio',
+    category: 'Personal Portfolio / Developer Showcase',
+    date: '2024',
+    description: 'A personal portfolio website to showcase my projects, skills, and experience as a software engineer.',
+    fullDescription: 'This portfolio website is designed to highlight my work as a software engineer, featuring sections for projects, skills, experience, and contact information. The site is built with a modern design aesthetic, utilizing smooth animations and responsive layouts to provide an engaging user experience. It serves as a platform to demonstrate my technical expertise, creativity, and professional journey in the tech industry.',
+    image: 'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?auto=format&fit=crop&q=80&w=1200',
+    stack: ['React', 'TypeScript', 'Tailwind CSS'],
+    links: {
+      github: 'https://github.com/thiagoleites/portfolio-thiago.git',
+      demo: 'https://thiagoleite.eu/'
+    }
+  },
+  {
+    id: '5',
+    title: 'Kaká Multimarcas',
+    category: 'Ecommerce',
+    date: '2026',
+    description: 'A modern and elegant online storefront for showcasing women’s fashion products with a direct WhatsApp sales flow.',
+    fullDescription: 'Kaká Multimarcas is a stylish and lightweight fashion e-commerce interface designed to present clothing collections, categories, featured products, and promotional highlights. The project focuses on a smooth shopping experience, allowing customers to browse products and quickly contact the seller through WhatsApp to complete their purchase.',
+    image: 'https://images.unsplash.com/photo-1551288049-bbda38a5f452?auto=format&fit=crop&q=80&w=1200',
+    stack: ['React', 'TypeScript', 'Tailwind CSS'],
+    links: {
+      github: '#',
+      demo: 'https://kakamultimarcas.com.br'
+    },
+    metrics: [
+      { label: 'Latency', value: '< 50ms' },
+      { label: 'Users', value: '10k+' },
+      { label: 'Uptime', value: '99.9%' }
+    ]
+  },
+  {
+    id: '6',
+    title: 'Devt Website',
+    category: 'Developer Site / Business Showcase / Show products and services',
+    date: '2025',
+    description: 'A business website to showcase my company, Devt, and the products and services we offer.',
+    fullDescription: 'The Devt website is designed to present our company, services, and products in a professional and engaging manner. It features sections for company information, service offerings, product showcases, client testimonials, and contact details. The site is built with a modern design aesthetic, utilizing smooth animations and responsive layouts to provide an engaging user experience. It serves as a platform to demonstrate our expertise, creativity, and commitment to delivering high-quality software solutions.',
+    image: 'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?auto=format&fit=crop&q=80&w=1200',
+    stack: ['Nuxt.js', 'TypeScript', 'Tailwind CSS'],
+    links: {
+      github: '#',
+      demo: 'https://devt.com.br'
+    },
+    metrics: [
+      { label: 'Latency', value: '< 50ms' },
+      { label: 'Users', value: '10k+' },
+      { label: 'Uptime', value: '99.9%' }
+    ]
   }
 ];
 
