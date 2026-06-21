@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { Send, Mail, MapPin, Phone, Github, Twitter, Linkedin } from 'lucide-react';
+import { Send, Mail, MapPin, Phone, Github, Twitter, Linkedin, Instagram } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
 export const Contact = () => {
@@ -77,7 +77,7 @@ export const Contact = () => {
             </div>
 
             <div className="flex gap-4 mt-12">
-              {[Github, Twitter, Linkedin].map((Icon, i) => (
+              {[Instagram, Github, Linkedin ].map((Icon, i) => (
                 <motion.a
                   key={i}
                   href="#"

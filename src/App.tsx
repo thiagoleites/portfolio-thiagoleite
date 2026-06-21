@@ -142,10 +142,10 @@ export default function App() {
                   <div className="w-1.5 h-1.5 bg-accent-cyan rounded-full animate-pulse"></div>
                   <span className="text-[10px] uppercase font-mono tracking-widest text-accent-cyan">System Live</span>
                 </div>
-                <span className="hidden md:inline text-[10px] text-neutral-600 uppercase tracking-widest">Mem: 24.8GB / CPU: 12%</span>
+                <span className="hidden md:inline text-[10px] text-neutral-600 uppercase tracking-widest">Mem: 32GB / CPU: 12%</span>
               </div>
               <div className="flex gap-4 md:gap-8 text-[10px] uppercase tracking-widest font-medium text-neutral-400">
-                <a href="#" className="hover:text-white transition-colors">Twitter</a>
+                <a href="https://instagram.com/thiagoleites_" className="hover:text-white transition-colors">Instagram</a>
                 <a href="https://www.linkedin.com/in/thiagoleites" className="hover:text-white transition-colors">LinkedIn</a>
                 <a href="https://github.com/thiagoleites" className="hover:text-white transition-colors">GitHub</a>
               </div>

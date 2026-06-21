@@ -95,7 +95,7 @@ export const Hero = () => {
         <div className="absolute right-8 bottom-8 text-right hidden lg:block">
           <div className="text-[10px] text-neutral-500 uppercase tracking-widest mb-2 font-mono">Current Status</div>
           <div className="flex justify-end items-center gap-2">
-            <span className="text-xs font-mono text-white/50">BUILD_V2.0.48</span>
+            <span className="text-xs font-mono text-white/50">BUILD_V2.0.0</span>
             <div className="w-1.5 h-1.5 bg-green-500 rounded-full shadow-[0_0_8px_rgba(34,197,94,0.5)]"></div>
           </div>
         </div>
