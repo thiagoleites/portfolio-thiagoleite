@@ -145,7 +145,7 @@ src/
 🚀 Getting Started
 Clone the repository
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/thiagoleites/portfolio-thiago.git
 ````
 
 Enter the project folder
