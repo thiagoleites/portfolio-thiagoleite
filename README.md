@@ -133,17 +133,13 @@ The objective is to create a visually engaging and professional platform that re
 
 ```bash
 src/
-├── assets/
-├── components/
-├── pages/
-├── layouts/
-├── hooks/
-├── services/
-├── styles/
-├── data/
-├── animations/
-└── utils/
-
+├── components/   # Visual portfolio sections and modular components (Hero, Navbar, Experience, etc.)
+├── lib/          # Custom helper libraries and utilities (e.g. cn merge helper)
+├── App.tsx       # Root layout, dynamic ambient animations and routing handlers
+├── constants.ts  # Static project items, credentials and timeline details
+├── index.css     # TailwindCSS v4 styling setup and theme configuration
+├── main.tsx      # Main React application entrypoint
+└── types.ts      # Shared TypeScript type definitions and interfaces
 ```
 
 🚀 Getting Started
